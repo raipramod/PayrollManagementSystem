@@ -12,6 +12,6 @@ class ContractTimeEmployee extends EmployeeApp {
 
     @Override
     public double calculateSalary(){
-       return fixedHour * rate;
+        return fixedHour * rate;
     }
 }
