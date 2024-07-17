@@ -18,7 +18,7 @@ class PayrollSystemApp {
             if (employeeapp.getId() == id) {
                 employeeAppToRemove = employeeapp;
                 break;
-            } else if (employeeAppToRemove != null) {
+            } if (employeeAppToRemove != null) {
                 employeeList.remove(employeeAppToRemove);
             }
         }
