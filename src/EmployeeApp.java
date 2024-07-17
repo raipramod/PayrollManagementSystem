@@ -10,10 +10,12 @@ abstract class EmployeeApp {
     }
     // Implemented the encapsulation to get the name and id respectively
     public String getName(){
+
         return name;
     }
 
     public int getId(){
+
         return id;
     }
 
@@ -23,7 +25,8 @@ abstract class EmployeeApp {
     // Override toString method and return all the attributes
        @Override
         public String toString(){
-        return "Employee [ name = "+name+", id = "+id+", salary = "+calculateSalary()+"]";
+
+           return "Employee [ name = "+name+", id = "+id+", salary = "+calculateSalary()+"]";
     }
 
 
