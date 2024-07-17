@@ -14,6 +14,7 @@ class FullTimeEmployee extends EmployeeApp {
     // Implemented calculate salary abstract method
     @Override
     public double calculateSalary(){
+
         return calculateSalary();
     }
 
