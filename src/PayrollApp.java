@@ -11,13 +11,15 @@ public class PayrollApp {
 
         System.out.println("Initial Employee Info");
         payrollSystemApp.addEmployee(fullTimeEmployee);
-        payrollSystemApp.addEmployee(partTimeEmployee);
-        payrollSystemApp.addEmployee(contractTimeEmployee);
-        payrollSystemApp.displayEmployees();
 
-        System.out.println("After Removing the some Info");
-        payrollSystemApp.removeEmployee(32);
-        payrollSystemApp.displayEmployees();
+        System.out.println(fullTimeEmployee);
+//        payrollSystemApp.addEmployee(partTimeEmployee);
+//        payrollSystemApp.addEmployee(contractTimeEmployee);
+//        payrollSystemApp.displayEmployees();
+//
+//        System.out.println("After Removing the some Info");
+//        payrollSystemApp.removeEmployee(32);
+//        payrollSystemApp.displayEmployees();
 
         }
     }

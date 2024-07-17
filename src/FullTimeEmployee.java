@@ -15,7 +15,7 @@ class FullTimeEmployee extends EmployeeApp {
     @Override
     public double calculateSalary(){
 
-        return calculateSalary();
+        return monthlySalary;
     }
 
 }
