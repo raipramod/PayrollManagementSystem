@@ -12,22 +12,22 @@ class PayrollSystemApp {
         employeeList.add(employeeApp);
     }
 
-    public void removeEmployee(int id){
-        EmployeeApp employeeAppToRemove =  null;
-        for(EmployeeApp employeeapp : employeeList){
-            if (employeeapp.getId() == id){
+    public void removeEmployee(int id) {
+        EmployeeApp employeeAppToRemove = null;
+        for (EmployeeApp employeeapp : employeeList) {
+            if (employeeapp.getId() == id) {
                 employeeAppToRemove = employeeapp;
                 break;
-            } else if(employeeAppToRemove != null){
+            } else if (employeeAppToRemove != null) {
                 employeeList.remove(employeeAppToRemove);
             }
         }
+
+    }
 
         public void displayEmployees(){
             for(EmployeeApp employeeApp : employeeList){
                 System.out.println(employeeApp);
             }
         }
-    }
-
 }
